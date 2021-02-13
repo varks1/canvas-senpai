@@ -50,7 +50,7 @@ class CanvasSenpai {
     ctx.drawImage(blurImage, 0, 0, canvas.width, canvas.height);
     let xname = member.user.username;
 
-    ctx.font = `bold 36px Life`;
+    ctx.font = `bold 36px Impact`;
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "start";
     ctx.strokeStyle = "#f5f5f5";
@@ -60,7 +60,7 @@ class CanvasSenpai {
     ctx.fillText(`${name}`, 278, 113);
     ctx.strokeText(`${name}`, 278, 113);
 
-    ctx.font = `bold 20px Life`;
+    ctx.font = `bold 20px Impact`;
     ctx.fillStyle = "#FFFFFF";
 
     ctx.fillText(`#${member.user.discriminator}`, 278, 160);
